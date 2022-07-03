@@ -28,59 +28,61 @@
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-        <h1>Diploma e Programa EAD</h1>
+
+        <h1>Contate-nos</h1>
+
     </section>
 
-    <!--Fórum?-->
-<section class="blog-content">
+<!-- Contato -->
+
+<section class="location">
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.5393613399697!2d-37.10596498560423!3d-10.922570024978072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab242ae652ba3%3A0xd50dbbaf6974ae9b!2sDepartamento%20de%20Computa%C3%A7%C3%A3o%20-%20DCOMP%2FUFS!5e0!3m2!1spt-BR!2sbr!4v1656865523748!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+<section class="contate-nos">
     <div class="row">
-        <div class="blog-left"><img src="images/certificate.jpg">
-            <h2>Graduação e Áreas de Interesse</h2>
-            <p>Após a conclusão de sua Graduação o profissional de TI estará apto a ser o responsável por gerenciar as informações em uma organização, criando e distribuindo-as em redes de computadores, além de lidar com processamento de dados, engenharia de software, informática, hardwares e softwares.</p>
-            <br>
-            <p>Os profissionais de TI podem trabalhar nos mais diferentes setores da economia, desde a área financeira até o ramo da saúde, além de empresas especializadas na área de tecnologia. </p>
-            <br>
-            <p>As oportunidades estão em organizações públicas e privadas, em bancos, seguradoras, operadoras de telefonia, indústrias, hospitais, consultorias e muitos outros perfis de instituições. </p>
-            <br>
-            <p>O profissional de TI pode desempenhar funções em todas as camadas da hierarquia da empresa, ocupando cargos que vão desde consultor até diretor. </p>
-
-            <div class="comment-box">
-                <h3>Deixe um comentário</h3>
-                <form class="comment-form">
-                    <input type="text" placeholder="Insira seu nome">
-                    <input type="email" placeholder="Insira seu email">
-                    <textarea rows="5" placeholder="Seu comentário"></textarea>
-                    <button type="submit" class="hero-btn blue-btn">Enviar comentário</button>
-                </form>
+         <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Avenida Marechal Rondon Jardim, s/n</h5>
+                    <p>Rosa Elze, São Cristóvão - SE</p>
+                </span>
             </div>
+         
+         <div>
+            <i class="fa fa-phone"></i>
+               <span>
+                   <h5>(79) 3194-6678</h5>
+                   <p>Segunda a Sexta, 08 às 21h</p>
+               </span>
+            </div>
+         
+         <div>
+            <i class="fa fa-envelope-o"></i>
+               <span>
+                   <h5>secretaria@dcomp.ufs.br</h5>
+                   <p>E-mail para contato</p>
+               </span>
+            </div>
+         </div>
 
+         <div class="contact-col">
+            
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Insira seu nome" required>
+                <input type="emai" name="email" placeholder="Insira seu endereço de email" required>
+                <input type="text" name="subject" placeholder="Insira o assunto" required>
+                <textarea rows="8" name="message" placeholder="Mensagem" required></textarea>
+                <button type="submit" class="hero-btn blue-btn">Enviar mensagem</button>
+            </form>
+
+
+
+         </div>
         </div>
-        
-
-        <div class="blog-right">
-            <h3>Categorias de Post</h3>
-            <div>
-                <span>Inteligência Artificial</span>
-                <span>32</span>
-            </div>
-            <div>
-                <span>Business Intelligence</span>
-                <span>27</span>
-            </div>
-            <div>
-                <span>Data Science</span>
-                <span>22</span>
-            </div>
-            <div>
-                <span>Machine Learning</span>
-                <span>16</span>
-            </div>
-            <div>
-                <span>Blockchain</span>
-                <span>13</span>
-            </div>
-        </div>
-    </div>
 </section>
 
 <!-- Rodapé -->
@@ -99,3 +101,4 @@
     <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
+
