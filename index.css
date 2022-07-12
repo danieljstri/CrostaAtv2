@@ -1,8 +1,22 @@
+/* Futuro root 
+
+:root {
+    --bg-color: #fafafa;
+    --navl-color: #fff;
+    --btn-color: blue;
+    --h-color: #222;
+ }
+
+*/
+
 *{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+        
 }
+
+
 
 .header{
     min-height: 100vh;
@@ -59,6 +73,7 @@ nav img{
 }
 .text-box h1{
     font-size: 62px;
+    
 }
 .text-box p{
     margin: 10px 0 40px;
@@ -155,6 +170,7 @@ h3{
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
+    color: #222;
 }
 .course-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
@@ -502,3 +518,4 @@ h3{
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+
