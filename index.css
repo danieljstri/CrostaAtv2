@@ -139,18 +139,36 @@ nav .fa{
     text-align: center;
     padding-top: 100px;
 }
+.course-col p{
+    color: white;
+}
 h1{
     font-size: 36px;
     font-weight: 600;
 }
 
-p{
+.campus p{
     color: #777;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
 }
+.facilities p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.testimonials p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
 
 .row{
     margin-top: 5%;
@@ -159,7 +177,7 @@ p{
 }
 .course-col{
     flex-basis: 31%;
-    background: #f1e1e1;
+    background: #84a8f5;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -287,7 +305,7 @@ h3{
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    background: #f1e1e1;
+    background: #84a8f5;
     padding: 20px;
     cursor: pointer;
     display: flex;
@@ -300,13 +318,14 @@ h3{
 }
 .testimonials-col p{
     padding: 0;
+    color: white;
 }
 .testimonials-col h3{
     margin-top: 15px;
     text-align: left;
 }
 .testimonials-col .fa{
-    color: #f44336;
+    color: #5236f4;
 }
 @media(max-width: 700px){
     .testimonials-col img{
@@ -395,6 +414,7 @@ h3{
 }
 .about-col p{
     padding: 15px 0 25px;
+    color: black;
 }
 .blue-btn{
     border: 1px solid blue;
@@ -503,6 +523,7 @@ h3{
 }
 .contact-col div p{
     padding: 0;
+    color: black;
 }
 .contact-col div h5{
     font-size: 20px;
@@ -573,14 +594,17 @@ border-bottom-right-radius: 10px;
     font-size: 12px;
     color: white;
 }
-.area2LP p{
-    font-size: 12px;
-  }
+.area2{
+    margin-top: 25px;
+}
+.area2LP{
+    margin-top: 25px; 
+}
 @media (max-width:720px){
     .mainContent{
 padding-left: 5px;
 background-color: rgb(59, 59, 224);
-width: 200px;
+width: 220px;
 display: flex;
 text-align: left;
 margin-right: 5px;
@@ -603,9 +627,7 @@ border-bottom-right-radius: 10px;
     p{
         font-size: 10px;
     }
-    .area2LP p{
-        font-size: 10px; 
-    }
+   
     .area2LP img{
         width:20px;
     }
@@ -614,6 +636,12 @@ border-bottom-right-radius: 10px;
     }
     .area2 img{
         width:20px;
+    }
+    .area2{
+        margin-top: 10px;
+    }
+    .area2LP{
+        margin-top: 10px; 
     }
 }
 
@@ -627,17 +655,13 @@ border-bottom-right-radius: 10px;
     width: 40px;
     vertical-align: middle;
 }
-.area2{
-    margin-top: 10px;
-}
+
 .area2 img{
   
     width: 40px;
     vertical-align: middle;
 }
-.area2LP{
-    margin-top: 10px; 
-}
+
 .area2LP img{
   
     width: 40px;
@@ -655,4 +679,63 @@ a{
 
 .footer p{
     color: black;
+}
+.container{
+    margin-top:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagination{
+   display: flex;
+   align-items: center;
+   background: rgb(80, 80, 226);
+   color:#383838;
+   
+   border-radius: 6px;
+}
+.pagination ul{
+    margin: 20px 30px;
+}
+.pagination ul li{
+    display: inline-block;
+    margin: 0 10px;
+    
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 45px;
+    cursor: pointer;
+    background-position: 0 -45px;
+    transform: background-position 0.5s;
+}
+ul li.active{
+    color:#fff;
+    background-image: linear-gradient(#0f1cd6, #0f1cd6);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.btn1, .btn2{
+    display: inline-flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 500;
+    color: #383838;
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btn1 img{
+    width: 24px;
+    margin-right: 15px;
+}
+.btn2 img{
+    width: 24px;
+    margin-left: 15px;
+    transform: rotate(180deg);
+
 }
