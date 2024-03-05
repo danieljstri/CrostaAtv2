@@ -4,7 +4,7 @@ Olá pessoal,
 
 Começamos mais uma semana com energia total! Esta semana, vamos focar em **Boas Práticas na Programação Web**.
 
-Nossa tarefa de hoje é dar uma olhada em um código desenvolvido pelo meu colega **Gyovani Santos**, ou como carinhosamente o chamamos, **Gygy**. Confesso que fiquei um tanto frustrado quando precisei usar esse código em um projeto anterior, o finado projeto root.
+Nossa tarefa de hoje é dar uma olhada em um código desenvolvido pelo meu colega **Gyovani Santos**, ou como carinhosamente o chamamos, **Gygy**. Confesso que quebrei muito a cabeça quando vi esse código pela primeira vez no finado projeto root.
 
 A missão é a seguinte: Acessar este repositório através do link [`dcomp-lite`](https://github.com/LucasCelestinoSE/dcomp-lite). Ao entrar, vocês irão se deparar com um código que eu mesmo modifiquei e baguncei de propósito (mais do que já estava). A ideia é refatorar esse código utilizando as **melhores práticas de programação web**, as quais podem ser encontradas [aqui](https://kinsta.com/pt/blog/melhores-praticas-html/).
 
